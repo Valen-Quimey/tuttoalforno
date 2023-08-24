@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer'
 import "./index.css"
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 
 
@@ -20,7 +21,7 @@ function App() {
       
       <Titulo titulo= {titulo} subtitulo= {subtitulo}/>
 
-    
+      <ItemListContainer/>
       <Footer/>
 
 

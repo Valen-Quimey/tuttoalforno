@@ -1,3 +1,5 @@
+import '../CartWidget/CartWidget'
+
 function Titulo(props) {
     console.log(props)
     return(
@@ -9,8 +11,15 @@ function Titulo(props) {
             {props.subtitulo}
           </h2>
       </div>
-    )
+      )
   
+
   }
+
+  const Cart = () => {
+    <i class="bi bi-cart-dash-fill"></i>
+  }
+
+
 
   export default Titulo

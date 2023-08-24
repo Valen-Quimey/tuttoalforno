@@ -1,12 +1,11 @@
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
-
 const CartWidget = () => {
-  return (
-    <div>
+    return (
+      <div>
         <i className="bi bi-cart-fill"></i>
-    </div>
-  )
-}
+      </div>
+    );
+  }
 
 export default CartWidget

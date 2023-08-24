@@ -10,22 +10,23 @@ import CartWidget from '../CartWidget/CartWidget';
 
 
 
+
 const NavBar = () =>{ 
     return ( 
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Tutto <i className="bi bi-cart-fill"></i>
+        <Navbar.Brand href="#home"> Tutto
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
        
           <Nav className="me-auto">
             <Nav.Link href="#features">Menús</Nav.Link>
-            <Nav.Link href="#pricing">Favoritos</Nav.Link>
+            <Nav.Link href="#pricing">Mi pedido</Nav.Link>
             <NavDropdown title="Más" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Esta semana</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Galería
+                Favoritos
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Sobre Nosotros</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -36,12 +37,13 @@ const NavBar = () =>{
           </Nav>
           <Nav>
             
-            <Nav.Link href="#deets">Mi pedido
-            72 <CartWidget />
+            <Nav.Link href="#deets">
+            <CartWidget /> 
             </Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
-              
+             102
             </Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
